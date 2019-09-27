@@ -2,7 +2,7 @@
 ASSD learns to highlight useful regions on the feature maps while suppressing the irrelevant information, thereby providing reliable guidance for object detection.
 
 <p align="center">
-	<img src="imgs/fig1.png", width="700">
+	<img src="imgs/fig2.png", width="700">
 </p>
 
 Please cite the article in your publications if it helps your research:
