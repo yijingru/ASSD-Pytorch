@@ -1,4 +1,7 @@
 # ASSD-Pytorch
+<p align="center">
+	<img src="imgs/fig2.png", width="700">
+</p>
 
 Please cite the article in your publications if it helps your research:
 
@@ -10,14 +13,6 @@ Please cite the article in your publications if it helps your research:
 
 ASSD learns to highlight useful regions on the feature maps while suppressing the irrelevant information, thereby providing reliable guidance for object detection.
 
-<p align="center">
-	<img src="imgs/fig2.png", width="700">
-</p>
-
-
-<p align="center">
-	<img src="imgs/graphic.png", width="700">
-</p>
 
 
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
@@ -31,6 +26,11 @@ ASSD learns to highlight useful regions on the feature maps while suppressing th
 | ASSD512 (VGG16) | 81.6 | - | 24564 | 512 x 512 |
 | ASSD513 (ResNet101) | **83.0** | 16 | 25844 | 513 x 513 |
 
+
+
+<p align="center">
+	<img src="imgs/graphic.png", width="700">
+</p>
 
 ## Dependencies
 Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
