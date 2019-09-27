@@ -41,6 +41,7 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
   tar -xvf VOCtrainval_11-May-2012.tar
   tar -xvf VOCtrainval_06-Nov-2007.tar
   tar -xvf VOCtest_06-Nov-2007.tar
+  ```
 
 ## Train/Test/Evaluation
 Change the mode in main.py, and make changes to config.py, then run
