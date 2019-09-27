@@ -24,3 +24,13 @@ Please cite the article in your publications if it helps your research:
 | ASSD321 (ResNet101) | 79.5 | 27.5 | 10325 | 321 x 321 |
 | ASSD512 (VGG16) | 81.6 | - | 24564 | 512 x 512 |
 | ASSD513 (ResNet101) | **83.0** | 16 | 25844 | 513 x 513 |
+
+
+## Dependencies
+Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
+
+## Train/Test/Evaluation
+Change the mode in main.py, and make changes to config.py, then run
+```Shell
+python main.py
+```
