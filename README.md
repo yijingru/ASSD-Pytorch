@@ -25,6 +25,9 @@ Please cite the article in your publications if it helps your research:
 | ASSD512 (VGG16) | 81.6 | - | 24564 | 512 x 512 |
 | ASSD513 (ResNet101) | **83.0** | 16 | 25844 | 513 x 513 |
 
+<p align="center">
+	<img src="imgs/graphic.png", width="700">
+</p>
 
 ## Dependencies
 Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
@@ -42,7 +45,7 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
   tar -xvf VOCtrainval_06-Nov-2007.tar
   tar -xvf VOCtest_06-Nov-2007.tar
   ```
-### MSCOCO 2017 [download from here](http://cocodataset.org/#download)
+### MSCOCO 2017 [download link](http://cocodataset.org/#download)
   ```Shell
 	#step1: download the following data and annotation
 	2017 Train images [118K/18GB]
@@ -61,5 +64,7 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
 ## Train/Test/Evaluation
 Change the mode in main.py, and make changes to config.py, then run
 ```Shell
-python main.py
+1. Change the mode in main.py
+2. Change parameters such as root(data directory) in config.py
+3. python main.py
 ```
