@@ -13,6 +13,10 @@ Please cite the article in your publications if it helps your research:
 		author = "Jingru Yi and Pengxiang Wu and Dimitris N. Metaxas"
 	}
 
+<p align="center">
+	<img src="imgs/graphic.png", width="700">
+</p>
+
 
 | System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
 |:-------|:-----:|:-------:|:-------:|:-------:|
@@ -25,9 +29,6 @@ Please cite the article in your publications if it helps your research:
 | ASSD512 (VGG16) | 81.6 | - | 24564 | 512 x 512 |
 | ASSD513 (ResNet101) | **83.0** | 16 | 25844 | 513 x 513 |
 
-<p align="center">
-	<img src="imgs/graphic.png", width="700">
-</p>
 
 ## Dependencies
 Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
