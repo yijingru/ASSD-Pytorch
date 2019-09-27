@@ -128,10 +128,13 @@ class DEC_Module(object):
 
         criterion = DEC_loss(num_classes=cfg.num_classes, variances=cfg.variance, device=device)
 
-        optimizer = optim.SGD(params=filter(lambda p: p.requires_grad, self.model.parameters()), lr=cfg.init_lr,
-                              momentum=0.9, weight_decay=cfg.weight_decay)
+        optimizer = optim.SGD(params=filter(lambda p: p.requires_grad, self.model.parameters()),
+                              lr=cfg.init_lr,
+                              momentum=0.9,
+                              weight_decay=cfg.weight_decay)
 
-        scheduler = lr_scheduler.StepLR(optimizer, step_size=cfg.lr_decay_epoch, gamma=0.1)
+        # scheduler = lr_scheduler.StepLR(optimizer, step_size=cfg.lr_decay_epoch, gamma=0.1)
+        scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=cfg.milestones, gamma=0.1)
 
         print('Loading Datasets...')
         dsets = PASCALVOC(root=cfg.root,

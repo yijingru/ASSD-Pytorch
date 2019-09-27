@@ -18,7 +18,10 @@ nms_thresh = 0.45
 img_size = 513
 batch_size = 24
 epoch = 100
-lr_decay_epoch = 50
+# lr_decay_epoch = 50
+milestones = [120, 170, 220]
+
+# data directory
 root = '/media/grace/Windows/ubuntu-backup/Datasets/PASCALVOC/VOCdevkit'
 
 train_sets = [('2007','train'),('2007','val'),('2012', 'train'),('2012', 'val')]
