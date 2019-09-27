@@ -43,10 +43,19 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
   tar -xvf VOCtest_06-Nov-2007.tar
   ```
 ### [MSCOCO 2017](http://cocodataset.org/#download)
-2017 Train images [118K/18GB]
-2017 Val images [5K/1GB]
-2017 Test images [41K/6GB]
-2017 Train/Val annotations [241MB]
+  ```Shell
+	#step1: download the following data and annotation
+	2017 Train images [118K/18GB]
+	2017 Val images [5K/1GB]
+	2017 Test images [41K/6GB]
+	2017 Train/Val annotations [241MB]
+	#step2: arrange the data to
+	-data
+ 	----train
+	----test
+	----val
+	----annotations
+  ```
 
 
 ## Train/Test/Evaluation
