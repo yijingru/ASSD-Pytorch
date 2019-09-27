@@ -15,7 +15,7 @@ ASSD learns to highlight useful regions on the feature maps while suppressing th
 
 
 
-| System | VOC2007 *mAP* |VOC2012 *mAP* | **FPS** (TitanX) | #Boxes | Input resolution
+| System | VOC2007 test |VOC2012 test | **FPS** (TitanX) | #Boxes | Input resolution
 |:-------|:-----:|:-----:|:-------:|:-------:|:-------:|
 | SSD300 (VGG16) | 77.2 | 75.8 | 46 | 8732 | 300 x 300 |
 | SSD512 (VGG16) | 79.8 | 78.5 | 19 | 24564 | 512 x 512 |
