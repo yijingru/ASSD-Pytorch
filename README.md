@@ -1,9 +1,4 @@
 # ASSD-Pytorch
-ASSD learns to highlight useful regions on the feature maps while suppressing the irrelevant information, thereby providing reliable guidance for object detection.
-
-<p align="center">
-	<img src="imgs/fig2.png", width="700">
-</p>
 
 Please cite the article in your publications if it helps your research:
 
@@ -12,6 +7,13 @@ Please cite the article in your publications if it helps your research:
 		journal = "Computer Vision and Image Understanding",
 		author = "Jingru Yi and Pengxiang Wu and Dimitris N. Metaxas"
 	}
+
+ASSD learns to highlight useful regions on the feature maps while suppressing the irrelevant information, thereby providing reliable guidance for object detection.
+
+<p align="center">
+	<img src="imgs/fig2.png", width="700">
+</p>
+
 
 <p align="center">
 	<img src="imgs/graphic.png", width="700">
