@@ -15,14 +15,14 @@ ASSD learns to highlight useful regions on the feature maps while suppressing th
 
 
 
-| System | VOC2007 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
+| System | VOC2007 test *mAP* |VOC2012 test *mAP* | **FPS** (Titan X) | Number of Boxes | Input resolution
 |:-------|:-----:|:-------:|:-------:|:-------:|
-| SSD300 (VGG16) | 77.2 | 46 | 8732 | 300 x 300 |
-| SSD512 (VGG16) | 79.8 | 19 | 24564 | 512 x 512 |
-| ASSD300 (VGG16) | 80.0 | - | 8732 | 300 x 300 |
-| ASSD321 (ResNet101) | 79.5 | 27.5 | 10325 | 321 x 321 |
-| ASSD512 (VGG16) | 81.6 | - | 24564 | 512 x 512 |
-| ASSD513 (ResNet101) | **83.0** | 16 | 25844 | 513 x 513 |
+| SSD300 (VGG16) | 77.2 | 75.8 | 46 | 8732 | 300 x 300 |
+| SSD512 (VGG16) | 79.8 | 78.5 | 19 | 24564 | 512 x 512 |
+| ASSD300 (VGG16) | 80.0 | 77.5 | - | 8732 | 300 x 300 |
+| ASSD321 (ResNet101) | 79.5 | 76.4 | 27.5 | 10325 | 321 x 321 |
+| ASSD512 (VGG16) | 81.6 | 80.0| -  | 24564 | 512 x 512 |
+| ASSD513 (ResNet101) | **83.0** | **81.3** | 16 | 25844 | 513 x 513 |
 
 
 
