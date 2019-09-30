@@ -6,14 +6,14 @@
 Please cite the article in your publications if it helps your research ([arxiv link](https://128.84.21.199/pdf/1909.12456.pdf)):
 
 	@article{YI2019102827,
-    title = "ASSD: Attentive single shot multibox detector",
-    journal = "Computer Vision and Image Understanding",
-    pages = "102827",
-    year = "2019",
-    issn = "1077-3142",
-    doi = "https://doi.org/10.1016/j.cviu.2019.102827",
-    url = "http://www.sciencedirect.com/science/article/pii/S1077314219301328",
-    author = "Jingru Yi and Pengxiang Wu and Dimitris N. Metaxas",
+        title = "ASSD: Attentive single shot multibox detector",
+        journal = "Computer Vision and Image Understanding",
+        pages = "102827",
+        year = "2019",
+        issn = "1077-3142",
+        doi = "https://doi.org/10.1016/j.cviu.2019.102827",
+        url = "http://www.sciencedirect.com/science/article/pii/S1077314219301328",
+        author = "Jingru Yi and Pengxiang Wu and Dimitris N. Metaxas",
     }
 
 ASSD learns to highlight useful regions on the feature maps while suppressing the irrelevant information, thereby providing reliable guidance for object detection.
@@ -51,7 +51,7 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
   tar -xvf VOCtrainval_06-Nov-2007.tar
   tar -xvf VOCtest_06-Nov-2007.tar
   ```
-### MSCOCO 2017 [download link](http://cocodataset.org/#download)
+### MSCOCO 2017 ([download link](http://cocodataset.org/#download))
   ```Shell
 	#step1: download the following data and annotation
 	2017 Train images [118K/18GB]
