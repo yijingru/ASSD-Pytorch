@@ -69,6 +69,7 @@ Library: OpenCV-Python, PyTorch>0.4.0, Ubuntu 14.04
 
 ## Train/Test/Evaluation
 ```Shell
+This is a simplified version. The full version will be released later.
 1. Change the mode in main.py
 2. Change parameters such as root(data directory) in config.py
 3. python main.py
