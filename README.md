@@ -3,7 +3,7 @@
 	<img src="imgs/fig2.png", width="700">
 </p>
 
-Please cite the article in your publications if it helps your research ([Arxiv Link](https://128.84.21.199/pdf/1909.12456.pdf), [ELSEVIER Link](https://www.sciencedirect.com/science/article/pii/S1077314219301328?via%3Dihub):
+Please cite the article in your publications if it helps your research ([Arxiv Link](https://128.84.21.199/pdf/1909.12456.pdf), [ELSEVIER Link](https://www.sciencedirect.com/science/article/pii/S1077314219301328?via%3Dihub)):
 
 	@article{YI2019102827,
         title = "ASSD: Attentive single shot multibox detector",
